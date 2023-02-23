@@ -33,7 +33,7 @@
     },
     {
         "id": 3,
-        "nome": "Ivysaur",
+        "nome": "Venusaur",
         "tipo": ["Grama", "Tóxico"],
         "evolucao": null,
         "energiaInicial": 0,
