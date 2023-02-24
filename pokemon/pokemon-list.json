@@ -103,5 +103,58 @@
             
         ],
         "sprite": "https://2.bp.blogspot.com/-l71TyQPmQYc/WKWs8r6qS6I/AAAAAAAACm4/f0Twa9i5yUgGEQB1WugVXplkTLLACa0VQCLcB/s1600/6.png"
+    },
+    {
+        "id": 7,
+        "nome": "Squirtle",
+        "tipo": ["Água"],
+        "evolucao": {"id": 8, "nome": "Wartortle"},
+        "energiaInicial": 0,
+        "movimentos": [
+            {"nome": "Enfrentar",     "dano": 5,  "tipo": "Normal", "energia": 10},
+            {"nome": "Bolha",         "dano": 12, "tipo": "Água",   "energia": 12},
+
+            {"nome": "Aqua Jato",     "dano": 45, "tipo": "Água",   "energia": -13},
+            {"nome": "Água cauda",    "dano": 50, "tipo": "Água",   "energia": -17},
+            {"nome": "Pulso de Água", "dano": 70, "tipo": "Água",   "energia": -16}
+            
+        ],
+        "sprite": "https://3.bp.blogspot.com/-UAn2RLgb_VE/WKWs9qJEXII/AAAAAAAACnk/7HRtJkVzTBg_pewb_tyNfm4xT-2EtJX1gCLcB/s1600/7.png"
+    },
+    {
+        "id": 8,
+        "nome": "Wartortle",
+        "tipo": ["Água"],
+        "evolucao": {"id": 9, "nome": "Blastoise"},
+        "energiaInicial": 0,
+        "movimentos": [
+            {"nome": "Mordida",         "dano": 6,  "tipo": "Sombrio", "energia": 8},
+            {"nome": "Revólver d'Água", "dano": 5,  "tipo": "Água",    "energia": 10},
+
+            {"nome": "Raio Congelante", "dano": 90,  "tipo": "Gelo",   "energia": -15},
+            {"nome": "Aqua Jato",       "dano": 45,  "tipo": "Água",   "energia": -13},
+            {"nome": "Jato d'Água",     "dano": 130, "tipo": "Água",   "energia": -30}
+            
+        ],
+        "sprite": "https://4.bp.blogspot.com/-f2towMIye20/WKWs-1OVIWI/AAAAAAAACoU/aZrJpt45lpMoXj6xvgUrOv0yBHrbRCZtwCLcB/s1600/8.png"
+    },
+    {
+        "id": 9,
+        "nome": "Blastoise",
+        "tipo": ["Água"],
+        "evolucao": null,
+        "energiaInicial": 0,
+        "movimentos": [
+            {"nome": "Mordida",         "dano": 6,  "tipo": "Sombrio", "energia": 8},
+            {"nome": "Revólver d'Água", "dano": 5,  "tipo": "Água",    "energia": 10},
+
+            {"nome": "Canhão Flash",    "dano": 100, "tipo": "Metal",  "energia": -37},
+            {"nome": "Raio Congelante", "dano": 90,  "tipo": "Gelo",   "energia": -15},
+            {"nome": "Jato d'Água",     "dano": 130, "tipo": "Água",   "energia": -30},
+            {"nome": "Quebra Crânio",   "dano": 130, "tipo": "Normal", "energia": -32},
+            {"nome": "Hidro Canhão",    "dano": 90,  "tipo": "Água",   "energia": -26}
+            
+        ],
+        "sprite": "https://1.bp.blogspot.com/-xRxK0s_nOOs/WKWs__1KP-I/AAAAAAAACpA/Ukb5jZm-30cvMCd6JGzZYCzKrj-4W8ENgCLcB/s1600/9.png"
     }
 ]
