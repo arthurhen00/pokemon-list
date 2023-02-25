@@ -1,0 +1,160 @@
+[
+    {
+        "id": 1,
+        "nome": "Bulbasaur",
+        "tipo": ["Planta", "Venenoso"],
+        "evolucao": {"id": 2, "nome": "Ivysaur"},
+        "energiaInicial": 0,
+        "movimentos": [
+            {"nome": "Chicote de Videira", "dano": 7,  "tipo": "Planta",  "energia": 6},
+            {"nome": "Enfrentar",          "dano": 5,  "tipo": "Normal", "energia": 8},
+
+            {"nome": "Bomba de Sementes",  "dano": 55, "tipo": "Planta",  "energia": -15},
+            {"nome": "Bomba de Lodo",      "dano": 80, "tipo": "Venenoso", "energia": -21},
+            {"nome": "Chicote de Força",   "dano": 90, "tipo": "Planta",  "energia": -26}
+        ],
+        "sprite": "https://1.bp.blogspot.com/-OcsBxeaQszo/WKWsyyQ8YMI/AAAAAAAACgY/j29INY90eKwGIQdVzRv0aRBCMa--_WS4wCLcB/s1600/1.png"
+    },
+    {
+        "id": 2,
+        "nome": "Ivysaur",
+        "tipo": ["Planta", "Venenoso"],
+        "evolucao": {"id": 3, "nome": "Venusaur"},
+        "energiaInicial": 0,
+        "movimentos": [
+            {"nome": "Chicote de Videira", "dano": 7,   "tipo": "Planta",  "energia": 10},
+            {"nome": "Folha Navalha",      "dano": 13,  "tipo": "Planta",  "energia": 7},
+
+            {"nome": "Bomba de Lodo",      "dano": 80,  "tipo": "Venenoso", "energia": -21},
+            {"nome": "Raio Solar",         "dano": 180, "tipo": "Planta",  "energia": -36},
+            {"nome": "Chicote de Força",   "dano": 90,  "tipo": "Planta",  "energia": -19}   
+        ],
+        "sprite": "https://4.bp.blogspot.com/-YPQEXSKQEZw/WKWs4W3BxgI/AAAAAAAACkM/QoIpcTCdfScEx71VGfOzPw8D6Db4w6tYACLcB/s1600/2.png"
+    },
+    {
+        "id": 3,
+        "nome": "Venusaur",
+        "tipo": ["Planta", "Venenoso"],
+        "evolucao": null,
+        "energiaInicial": 0,
+        "movimentos": [
+            {"nome": "Chicote de Videira", "dano": 7,   "tipo": "Planta",  "energia": 10},
+            {"nome": "Folha Navalha",      "dano": 13,  "tipo": "Planta",  "energia": 7},
+
+            {"nome": "Pétala Nevasca",     "dano": 110, "tipo": "Planta",  "energia": -26},
+            {"nome": "Bomba de Lodo",      "dano": 80,  "tipo": "Venenoso", "energia": -21},
+            {"nome": "Raio Solar",         "dano": 180, "tipo": "Planta",  "energia": -36},
+            {"nome": "Planta de Frenesi",  "dano": 100, "tipo": "Planta",  "energia": -22}
+        ],
+        "sprite": "https://3.bp.blogspot.com/-dA7uhFDKMtk/WKWs5R92YiI/AAAAAAAACk4/ELE-mccyG7s_P88kGi03rUW7Tz1SaXY5ACLcB/s1600/3.png"
+    },
+    {
+        "id": 4,
+        "nome": "Charmander",
+        "tipo": ["Fogo"],
+        "evolucao": {"id": 5, "nome": "Charmeleon"},
+        "energiaInicial": 0,
+        "movimentos": [
+            {"nome": "Brasa",            "dano": 10, "tipo": "Fogo",   "energia": 10},
+            {"nome": "Arranhar",         "dano": 6,  "tipo": "Normal", "energia": 8},
+
+            {"nome": "Lança Chamas",     "dano": 70, "tipo": "Fogo",   "energia": -22},
+            {"nome": "Carga de Fogo",    "dano": 60, "tipo": "Fogo",   "energia": -14},
+            {"nome": "Estouro de Chama", "dano": 65, "tipo": "Fogo",   "energia": -19}
+        ],
+        "sprite": "https://4.bp.blogspot.com/-KEIWjBOI1oM/WKWs6d8FuQI/AAAAAAAAClg/XkTJtpPe7rk9rpxM8po4hvhdDBahwLTAwCLcB/s1600/4.png"
+    },
+    {
+        "id": 5,
+        "nome": "Charmeleon",
+        "tipo": ["Fogo"],
+        "evolucao": {"id": 6, "nome": "Charizard"},
+        "energiaInicial": 0,
+        "movimentos": [
+            {"nome": "Brasa",            "dano": 10, "tipo": "Fogo",   "energia": 10},
+            {"nome": "Presa de Fogo",    "dano": 12, "tipo": "Fogo",   "energia": 9},
+            {"nome": "Arranhar",         "dano": 6,  "tipo": "Normal", "energia": 8},
+
+            {"nome": "Lança Chamas",     "dano": 70, "tipo": "Fogo",   "energia": -22},
+            {"nome": "Estouro de Chama", "dano": 65, "tipo": "Fogo",   "energia": -19},
+            {"nome": "Soco de Fogo",     "dano": 55, "tipo": "Fogo",   "energia": -15}
+            
+        ],
+        "sprite": "https://4.bp.blogspot.com/-hQvAtl6EuUE/WKWs7uGDyCI/AAAAAAAACmQ/hgihyAZN6goig4dMRhL986XK9ETq_9GMACLcB/s1600/5.png"
+    },
+    {
+        "id": 6,
+        "nome": "Charizard",
+        "tipo": ["Fogo", "Voador"],
+        "evolucao": null,
+        "energiaInicial": 0,
+        "movimentos": [
+            {"nome": "Golpe de Ar",          "dano": 14, "tipo": "Voador", "energia": 8},
+            {"nome": "Giro de Fogo",         "dano": 14, "tipo": "Fogo",   "energia": 9},
+            {"nome": "Brasa",                "dano": 10, "tipo": "Fogo",   "energia": 10},
+            {"nome": "Ataque de Vento",      "dano": 8,  "tipo": "Voador", "energia": 11},
+            {"nome": "Sopro do Dragão",      "dano": 6,  "tipo": "Dragão", "energia": 8},
+
+            {"nome": "Cauda do Dragão",      "dano": 50,  "tipo": "Dragão", "energia": -19},
+            {"nome": "Explosão de Fogo",     "dano": 140, "tipo": "Fogo",   "energia": -24},
+            {"nome": "Superaquecer",         "dano": 160, "tipo": "Fogo",   "energia": -25},
+            {"nome": "Lança Chamas",         "dano": 70,  "tipo": "Fogo",   "energia": -23},
+            {"nome": "Queimadura Explosiva", "dano": 110, "tipo": "Fogo",   "energia": -15}
+            
+        ],
+        "sprite": "https://2.bp.blogspot.com/-l71TyQPmQYc/WKWs8r6qS6I/AAAAAAAACm4/f0Twa9i5yUgGEQB1WugVXplkTLLACa0VQCLcB/s1600/6.png"
+    },
+    {
+        "id": 7,
+        "nome": "Squirtle",
+        "tipo": ["Água"],
+        "evolucao": {"id": 8, "nome": "Wartortle"},
+        "energiaInicial": 0,
+        "movimentos": [
+            {"nome": "Enfrentar",     "dano": 5,  "tipo": "Normal", "energia": 10},
+            {"nome": "Bolha",         "dano": 12, "tipo": "Água",   "energia": 12},
+
+            {"nome": "Aqua Jato",     "dano": 45, "tipo": "Água",   "energia": -13},
+            {"nome": "Água cauda",    "dano": 50, "tipo": "Água",   "energia": -17},
+            {"nome": "Pulso de Água", "dano": 70, "tipo": "Água",   "energia": -16}
+            
+        ],
+        "sprite": "https://3.bp.blogspot.com/-UAn2RLgb_VE/WKWs9qJEXII/AAAAAAAACnk/7HRtJkVzTBg_pewb_tyNfm4xT-2EtJX1gCLcB/s1600/7.png"
+    },
+    {
+        "id": 8,
+        "nome": "Wartortle",
+        "tipo": ["Água"],
+        "evolucao": {"id": 9, "nome": "Blastoise"},
+        "energiaInicial": 0,
+        "movimentos": [
+            {"nome": "Mordida",         "dano": 6,  "tipo": "Sombrio", "energia": 8},
+            {"nome": "Revólver d'Água", "dano": 5,  "tipo": "Água",    "energia": 10},
+
+            {"nome": "Raio Congelante", "dano": 90,  "tipo": "Gelo",   "energia": -15},
+            {"nome": "Aqua Jato",       "dano": 45,  "tipo": "Água",   "energia": -13},
+            {"nome": "Jato d'Água",     "dano": 130, "tipo": "Água",   "energia": -30}
+            
+        ],
+        "sprite": "https://4.bp.blogspot.com/-f2towMIye20/WKWs-1OVIWI/AAAAAAAACoU/aZrJpt45lpMoXj6xvgUrOv0yBHrbRCZtwCLcB/s1600/8.png"
+    },
+    {
+        "id": 9,
+        "nome": "Blastoise",
+        "tipo": ["Água"],
+        "evolucao": null,
+        "energiaInicial": 0,
+        "movimentos": [
+            {"nome": "Mordida",         "dano": 6,  "tipo": "Sombrio", "energia": 8},
+            {"nome": "Revólver d'Água", "dano": 5,  "tipo": "Água",    "energia": 10},
+
+            {"nome": "Canhão Flash",    "dano": 100, "tipo": "Aço",  "energia": -37},
+            {"nome": "Raio Congelante", "dano": 90,  "tipo": "Gelo",   "energia": -15},
+            {"nome": "Jato d'Água",     "dano": 130, "tipo": "Água",   "energia": -30},
+            {"nome": "Quebra Crânio",   "dano": 130, "tipo": "Normal", "energia": -32},
+            {"nome": "Hidro Canhão",    "dano": 90,  "tipo": "Água",   "energia": -26}
+            
+        ],
+        "sprite": "https://1.bp.blogspot.com/-xRxK0s_nOOs/WKWs__1KP-I/AAAAAAAACpA/Ukb5jZm-30cvMCd6JGzZYCzKrj-4W8ENgCLcB/s1600/9.png"
+    }
+]
