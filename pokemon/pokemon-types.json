@@ -91,35 +91,35 @@
         "imunidade": null
     },
     {
-        "icone": "",
+        "icone": "https://1.bp.blogspot.com/-ZE4Zql1J55s/YBsQWPTK5vI/AAAAAAAAsCQ/C900Z9sZ1AkrxaEz3y2jNX3yJivyft7JQCLcBGAsYHQ/s20/GO_Poison.webp",
         "nome": "Venenoso",
         "vantagens": ["Fada", "Planta"],
         "desvantagens": ["Terrestre", "Psíquico"],
         "imunidade": null
     },
     {
-        "icone": "",
+        "icone": "https://1.bp.blogspot.com/-BtSgzxBk5_w/YBsQTh_EheI/AAAAAAAAsBc/C84X453AW9YUVM3F6HTSRyfd0DUNGa5qwCLcBGAsYHQ/s20/GO_Bug.webp",
         "nome": "Inseto",
         "vantagens": ["Sombrio", "Planta", "Psíquico"],
         "desvantagens": ["Fogo", "Voador", "Pedra"],
         "imunidade": null
     },
     {
-        "icone": "",
+        "icone": "https://1.bp.blogspot.com/-Oo205G1b3Qo/YBsQUUbYOOI/AAAAAAAAsBs/douwL2OWPvMv-0qCbwqOKgFmQ9fsoxlLQCLcBGAsYHQ/s20/GO_Fairy.webp",
         "nome": "Fada",
         "vantagens": ["Sombrio", "Dragão", "Lutador"],
         "desvantagens": ["Aço", "Venenoso"],
         "imunidade": ["Dragão"]
     },
     {
-        "icone": "",
+        "icone": "https://1.bp.blogspot.com/-5_3AXik_qNk/YBsQVBpAXtI/AAAAAAAAsB8/06k-B7LI-AY1KlJUymBrCfo6N55N4H-KACLcBGAsYHQ/s20/GO_Ghost.webp",
         "nome": "Fantasma",
         "vantagens": ["Fantasma", "Psíquico"],
         "desvantagens": ["Sombrio", "Fantasma"],
         "imunidade": ["Normal", "Lutador"]
     },
     {
-        "icone": "",
+        "icone": "https://1.bp.blogspot.com/-3cXS0z749gA/YBsQTijxT5I/AAAAAAAAsBk/JUzSVT9AO4EynsdOq4_CZl044uwoL0s4ACLcBGAsYHQ/s20/GO_Dragon.webp",
         "nome": "Dragão",
         "vantagens": ["Dragão"],
         "desvantagens": ["Dragão", "Fada", "Gelo"],
